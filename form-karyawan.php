@@ -53,6 +53,11 @@
                     <input type="text" name="username" 
                     class="form-control mb-2" required 
                     value="<?=($kontak["username"])?>"/>
+                    
+                    Password 
+                    <input type="text" name="password" 
+                    class="form-control mb-2" required 
+                    value="<?=($kontak["password"])?>"/>
 
                     <button type="submit" 
                     class=" btn btn-success btn-block"
@@ -77,6 +82,10 @@
                     Username 
                     <input type="text" name="username" 
                     class="form-control mb-2" required/>
+                        
+                    Password
+                    <input type="text" name="password" 
+                    class="form-control mb-2" required/> 
 
                     <button type="submit" 
                     class=" btn btn-success btn-block"
